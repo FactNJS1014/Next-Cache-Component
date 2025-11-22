@@ -26,7 +26,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
           <NavigationMenuLink
             asChild
             className={`${navigationMenuTriggerStyle()} ${
-              isActive("/") ? "bg-primary text-white" : ""
+              isActive("/") ? "bg-blue-900 text-white" : ""
             }`}
           >
             <Link href="/">Home</Link>
@@ -37,7 +37,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => {
           <NavigationMenuLink
             asChild
             className={`${navigationMenuTriggerStyle()} ${
-              isActive("/user") ? "bg-primary text-white" : ""
+              isActive("/user") ? "bg-blue-900 text-white" : ""
             }`}
           >
             <Link href="/user">User</Link>
